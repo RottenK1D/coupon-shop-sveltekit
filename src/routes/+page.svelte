@@ -6,6 +6,10 @@
 	import Footer from '../components/Footer.svelte';
 </script>
 
+<svelte:head>
+	<title>Couper</title>
+</svelte:head>
+
 <div class="bg-[#E8F5E2] font-roboto">
 	<Navbar />
 	<Hero />
